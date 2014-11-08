@@ -6,20 +6,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Official Website of Women Engineers Code Conference">
+    <meta name="author" content="Harvard Women in CS">
+    <meta name="robots" content="NOODP">
+    <link rel="shortcut icon" href="/img/icon.png" type="image/x-icon" />
+    <link rel="icon" href="/img/icon.png" type="image/x-icon" />
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>WeCode</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,16 +34,73 @@
 
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <br>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading" style="font-size: 55px;">Save the date!</h1>
+                        <img src= "/img/logo.png" alt="WECode Logo">
+                        <h1 class="brand-heading" style="font-size: 70px;">Feb 7-8, 2015</h1>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <!-- Services -->
+        <!-- About Section -->
+    <section id="about" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 style = "color: #eda09a;font-size: 60px;">About WECode</h2>
+                    <p>WECode (Women Engineers Code Conference) is a conference for collegiate women interested in Computer Science that seeks to promote female representation in technical fields and create a community among women in technology.</p>
+                    <p>Network and attend workshops headed by professionals from Palantir, Microsoft, Google, and more!</p>
+                    <p> <b>Details about registration and <br>the conference schedule will be announced soon!</b></p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://www.facebook.com/harvardwecode" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p style="font-size: 15px;">Copyright &copy; Harvard Women in Computer Science 2014-2015 </p>
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -47,37 +108,11 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
     <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+    <script src="js/grayscale.js"></script>
 
 </body>
 
