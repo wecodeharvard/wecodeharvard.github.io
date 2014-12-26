@@ -303,6 +303,7 @@ dd{
 }
 
 .sponsor {
+height: 100px;
 opacity: 0.3;
 -webkit-transition: all .2s ease-in-out;
 -moz-transition: all .2s ease-in-out;

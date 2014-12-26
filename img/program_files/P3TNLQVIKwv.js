@@ -1,0 +1,6 @@
+/*!CK:1372328554!*//*1417407484,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["XAULO"]); }
+
+__d("TrendingEvent",[],function(a,b,c,d,e,f){e.exports={TAG_IMPRESSION:"tag_impression",TAG_FEED_LOAD:"tag_feed_load",TAG_FEED_LONG_VIEW:"tag_feed_long_view",TAG_HIDE:"tag_hide",HOVERCARD_LOAD:"hovercard_load",HOVERCARD_LOAD_EXPERIMENTAL:"hovercard_load_experimental",HOVERCARD_UNLOAD:"hovercard_unload",HOVERCARD_ARTICLE_CLICK:"hovercard_article_click",HOVERCARD_FEED_CLICK:"hovercard_feed_click",OBJECT_CLICK:"object_click",OBJECT_OUTBOUND_CLICK:"object_outbound_click",OBJECT_LIKE:"object_like",OBJECT_COMMENT:"object_comment",OBJECT_SHARE:"object_share",OBJECT_PAGE_LIKE:"object_page_like",OBJECT_FOLLOW:"object_follow",OBJECT_HIDE:"object_hide",PAGINATE:"paginate"};},null);
+__d("XPubcontentTrendingHovercardLoggingControllerURIBuilder",["XControllerURIBuilder"],function(a,b,c,d,e,f){e.exports=b("XControllerURIBuilder").create("\/pubcontent\/trending\/hovercard\/logging\/",{topic_id:{type:"Int",required:true},event:{type:"String",required:true},position:{type:"Int",required:true},source:{type:"String",required:true},query_id:{type:"Int",required:true}});},null);
