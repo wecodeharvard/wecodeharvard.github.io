@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato";
     color: #fff;
     background-color: #000;
 }
@@ -17,13 +17,18 @@ html {
     height: 100%;
 }
 
+
+td {
+    padding: 5px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 15px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -31,21 +36,22 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
-    font-size: 18px;
+    margin: 0 0 5px;
+    font-size: 12px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
-        font-size: 20px;
+        margin: 0 0 0px;
+        font-size: 16px;
         line-height: 1.6;
     }
 }
 
 a {
     color: #fff;
+    font-weight: 900;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -55,6 +61,15 @@ a:hover,
 a:focus {
     text-decoration: none;
     color: #eda09a;
+}
+
+dt{
+    color: #C8C8C8;
+    text-align: right;
+}
+
+dd{
+    text-align: left;
 }
 
 .light {
@@ -252,11 +267,11 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.about-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -264,11 +279,11 @@ a:focus {
     -o-background-size: cover;
 }
 
-.download2-section {
+.involve-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads2-bg.jpg) no-repeat center center scroll;
+    background: url(../img/involve.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -276,11 +291,57 @@ a:focus {
     -o-background-size: cover;
 }
 
-.download3-section {
+.sponsor-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads3-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.sponsor {
+opacity: 0.3;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-webkit-filter: grayscale(100%);
+}
+
+.sponsor:hover {
+opacity: 0.3;
+-webkit-filter: grayscale(0%);
+}
+
+.faq-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/about.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.schedule-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff; 
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.program-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/program.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -588,5 +649,16 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #C8C8C8;
+}
+
+.keynote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border: 7px solid #f1f1f1;;
+    border-radius: 100%;
+    -webkit-filter: grayscale(100%);
 }
