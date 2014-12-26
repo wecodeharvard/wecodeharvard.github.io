@@ -304,13 +304,24 @@ dd{
 }
 
 .sponsor {
-height: 50px;
+height: 30px;
 -webkit-transition: all .2s ease-in-out;
 -moz-transition: all .2s ease-in-out;
 -webkit-filter: grayscale(100%);
 }
 
 .sponsor:hover {
+-webkit-filter: grayscale(0%);
+}
+
+.platsponsor {
+height: 100px;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-webkit-filter: grayscale(100%);
+}
+
+.platsponsor:hover {
 -webkit-filter: grayscale(0%);
 }
 
