@@ -303,6 +303,19 @@ dd{
     -o-background-size: cover;
 }
 
+.goldsponsor {
+height: 50px;
+opacity: 0.3;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-webkit-filter: grayscale(100%);
+}
+
+.goldsponsor:hover {
+opacity: 0.3;
+-webkit-filter: grayscale(0%);
+}
+
 .sponsor {
 height: 100px;
 opacity: 0.3;
