@@ -303,18 +303,6 @@ dd{
     -o-background-size: cover;
 }
 
-
-.platsponsor {
-height: 200px;
--webkit-transition: all .2s ease-in-out;
--moz-transition: all .2s ease-in-out;
--webkit-filter: grayscale(100%);
-}
-
-.platsponsor:hover {
--webkit-filter: grayscale(0%);
-}
-
 .sponsor {
 height: 20px;
 -webkit-transition: all .2s ease-in-out;
