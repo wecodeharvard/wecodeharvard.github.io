@@ -305,28 +305,24 @@ dd{
 
 
 .platsponsor {
-height: 100px;
-opacity: 0.3;
+height: 200px;
 -webkit-transition: all .2s ease-in-out;
 -moz-transition: all .2s ease-in-out;
 -webkit-filter: grayscale(100%);
 }
 
 .platsponsor:hover {
-opacity: 0.3;
 -webkit-filter: grayscale(0%);
 }
 
 .sponsor {
 height: 20px;
-opacity: 0.3;
 -webkit-transition: all .2s ease-in-out;
 -moz-transition: all .2s ease-in-out;
 -webkit-filter: grayscale(100%);
 }
 
 .sponsor:hover {
-opacity: 0.3;
 -webkit-filter: grayscale(0%);
 }
 
